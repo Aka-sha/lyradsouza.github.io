@@ -1,0 +1,134 @@
+/*2C3531, 116466, D9B08C, FFCB9A, D1E8E2*/
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: "Venti", sans-serif;
+}
+#content-wrap {
+  padding-bottom: 100px;
+  overflow-y: hidden;
+}
+#logo{
+    float: left;
+}
+#header{
+    padding: 20px;
+}
+.btn{
+    font-weight: medium;
+    background-color: #F9BD2A;
+    color: #2C3531;
+    border-radius: 5px;
+    border: none;
+    width: 170px;
+    margin: 5px;
+    padding: 12px;
+    font-size: 20px;
+}
+.button-1{
+    float:right;
+}
+.btn:active, .btn:focus {
+    outline-color: #D1E8E2;
+    outline-width: thick;
+}
+#main-content{
+    position: relative;
+    clear: both;
+    float:left;
+    margin-left: 170px;
+    padding-top: 30px;
+    width: 40%;
+}
+.button-2{
+}
+#newspaper{
+    float: right;
+    padding: 100px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+#banner{
+    clear: both;
+    background-color: #D1E8E2;
+    width: auto;
+    height: 500px;
+    display: inline-flex;
+}
+.card{
+    background-color: #FFCB9A;
+    height: 300px;
+    width: 15%;
+    margin-left: 4.8%;
+    margin-right: 4.8%;
+    margin-top: 100px;
+    margin-bottom:100px;
+    text-align: center;
+    border-radius: 5px;
+}
+.tagline{
+    margin: 20px;
+    margin-bottom: 35px;
+}
+.button-3{
+    height: 50px;
+    align: center;
+    margin: 20px;
+    position: relative;
+    top: 15px;
+    background-color: #116466;
+    color: white;
+}
+#blog{
+    position: relative;
+    top: 140px;
+    background-color: #FFCB9A;
+    height: 450px;
+    margin-bottom: 100px;
+    text-align: center;
+    width: auto;
+    padding-top: 40px;
+}
+#blog-mini{
+    background-color: #D1E8E2;
+    width: 50%;
+    margin-left: 24.9%;
+    margin-right: 24.9%;
+    height: 400px;
+    border: 5px double #116466;
+    border-radius: 5px;
+}
+#blog-text{
+    padding-top: 30px;
+    font-size: 25px;
+}
+#books{
+    position: relative;
+    top: 35px;
+}
+.button-4{
+    position: relative;
+    top: 35px;
+    margin: 50px;
+    font-size: 35px;
+}
+#footer {
+    text-align: center;
+}
+.fa {
+  padding: 3px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #116466;
+}
+.fa:hover {
+  opacity: 0.7;
+}
