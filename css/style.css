@@ -1,13 +1,25 @@
 /*2C3531, 116466, D9B08C, FFCB9A, D1E8E2*/
 
+@keyframes shiftSide{
+    0%{
+        margin-left: 170px;
+    }
+    50%{
+        margin-left: 150px;
+    }
+    100%{
+        margin-left: 170px;
+    }
+}
 #page-container {
   position: relative;
   min-height: 100vh;
   overflow-x: hidden;
-  font-family: "Venti", sans-serif;
+  font-family: sans-serif;
 }
 #content-wrap {
   padding-bottom: 100px;
+  margin-bottom: 100px;
   overflow-y: hidden;
 }
 #logo{
@@ -27,6 +39,9 @@
     padding: 12px;
     font-size: 20px;
 }
+.btn:hover{
+    opacity: .8;
+}
 .button-1{
     float:right;
 }
@@ -41,6 +56,8 @@
     margin-left: 170px;
     padding-top: 30px;
     width: 40%;
+    animation-name: shiftSide;
+    animation-duration: 3s;
 }
 .button-2{
 }
@@ -120,15 +137,22 @@ h2{
     font-size: 35px;
 }
 #footer {
+    position: absolute;
+    left: 39%;
+    bottom: 0;
     text-align: center;
+    align-items: center;
 }
 .fa {
   padding: 3px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   text-align: center;
   text-decoration: none;
   color: #116466;
 }
 .fa:hover {
-  opacity: 0.7;
+  opacity: 0.8;
+}
+#page-content{
+    font-size: 40px;
 }
