@@ -55,6 +55,7 @@
     float:left;
     margin-left: 170px;
     padding-top: 30px;
+    padding-bottom: 100px;
     width: 40%;
     animation-name: shiftSide;
     animation-duration: 3s;
@@ -75,19 +76,20 @@ h2{
 #banner{
     clear: both;
     background-color: #D1E8E2;
-    width: auto;
-    height: 500px;
+    height: 420px;
     display: inline-flex;
+    width: 100vw;
 }
 .card{
     background-color: #FFCB9A;
-    height: 300px;
+    height: 280px;
     width: 15%;
-    margin-left: 4.8%;
-    margin-right: 4.8%;
-    margin-top: 100px;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    margin-top: 70px;
     margin-bottom:100px;
     text-align: center;
+    border: 3px solid #116466;
     border-radius: 5px;
 }
 .tagline{
@@ -105,36 +107,72 @@ h2{
 }
 #blog{
     position: relative;
-    top: 140px;
+    top: 110px;
     background-color: #FFCB9A;
-    height: 450px;
+    height: 400px;
     margin-bottom: 100px;
-    text-align: center;
-    width: auto;
-    padding-top: 40px;
+    width: 100vw;
+    padding: 20px;
+    display: inline-flex;
 }
 #blog-mini{
+    text-align: center;
     background-color: #D1E8E2;
-    width: 50%;
-    margin-left: 24.9%;
-    margin-right: 24.9%;
-    height: 400px;
+    width: 300px;
+    padding: 20px;
+    height: 350px;
     border: 5px double #116466;
     border-radius: 5px;
 }
 #blog-text{
-    padding-top: 30px;
-    font-size: 25px;
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
 }
 #books{
     position: relative;
-    top: 35px;
+    top: 20px;
 }
 .button-4{
     position: relative;
-    top: 35px;
+    top: 8px;
     margin: 50px;
-    font-size: 35px;
+    background-color: #116466;
+    color: white;
+}
+#blog-preview{
+    position: relative;
+    left: 40px;
+    background-color: white;
+    width: 945px;
+    height: 350px;
+    padding: 20px;
+    border: 5px double #116466;
+    border-radius: 5px;
+}
+#teacher-img{
+    float: left;
+    position: relative;
+    top: 30px;
+    padding: 20px;
+    margin-right: 15px;
+}
+#teacher-article{
+    position: relative;
+    top: 30px;
+    padding-left: 40px;
+}
+#teacher-text{
+    font-weight: normal;
+    padding-right: 40px;
+}
+.button-blog{
+    position: relative;
+    top: 8px;
 }
 #footer {
     position: absolute;
@@ -156,3 +194,55 @@ h2{
 #page-content{
     font-size: 40px;
 }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+.d-button{
+    background-color: white;
+    font-family: "Roboto" sans-serif;
+    color: #116466;
+    border-radius: 5px;
+    border: none;
+    width: 170px;
+    padding: 12px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.d-button:hover{
+    opacity: .8;
+}
+.d-button:active, .d-button:focus {
+    outline-color: #D1E8E2;
+    outline-width: thick;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #116466;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #D1E8E2;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #FFCB9A;}
